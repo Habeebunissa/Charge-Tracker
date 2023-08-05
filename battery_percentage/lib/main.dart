@@ -44,7 +44,10 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Charge Tracker'),
+        title: Text(
+          'Charge Tracker',
+          style: TextStyle(fontSize: 16),
+        ),
       ),
       body: Center(
         child: Column(
